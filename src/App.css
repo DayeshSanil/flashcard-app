@@ -1,0 +1,56 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #a78bfa;
+  margin-bottom: 8px;
+}
+
+.header p {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.stat-box {
+  background: #1a1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 12px;
+  padding: 16px 28px;
+  text-align: center;
+}
+
+.stat-box span {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #a78bfa;
+}
+
+.stat-box p {
+  font-size: 0.8rem;
+  color: #888;
+  margin-top: 4px;
+}
+
+.empty {
+  text-align: center;
+  color: #555;
+  margin-top: 60px;
+  font-size: 1.1rem;
+}

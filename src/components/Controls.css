@@ -1,0 +1,55 @@
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 40px;
+}
+
+.nav-buttons,
+.action-buttons,
+.extra-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: opacity 0.2s, transform 0.1s;
+}
+
+.btn:hover { opacity: 0.85; }
+.btn:active { transform: scale(0.97); }
+
+.btn-nav {
+  background: #1a1a2e;
+  color: #a78bfa;
+  border: 1px solid #a78bfa;
+}
+
+.btn-know {
+  background: #34d399;
+  color: #000;
+}
+
+.btn-dontknow {
+  background: #f87171;
+  color: #000;
+}
+
+.btn-shuffle {
+  background: #1a1a2e;
+  color: #888;
+  border: 1px solid #333;
+}
+
+.btn-delete {
+  background: #1a1a2e;
+  color: #f87171;
+  border: 1px solid #f87171;
+}

@@ -1,0 +1,60 @@
+.add-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn-add-toggle {
+  background: transparent;
+  border: 2px dashed #a78bfa;
+  color: #a78bfa;
+  padding: 12px 32px;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn-add-toggle:hover {
+  background: #1a1a2e;
+}
+
+.add-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.add-form textarea {
+  background: #1a1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 10px;
+  color: #fff;
+  padding: 12px;
+  font-size: 0.95rem;
+  resize: none;
+  outline: none;
+  font-family: inherit;
+}
+
+.add-form textarea:focus {
+  border-color: #a78bfa;
+}
+
+.btn-add-submit {
+  background: #a78bfa;
+  color: #000;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-add-submit:hover {
+  opacity: 0.9;
+}
